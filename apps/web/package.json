@@ -9,10 +9,11 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@repo/ui": "*",
     "@repo/database": "*",
     "@repo/store": "*",
+    "@repo/ui": "*",
     "next": "^14.2.2",
+    "next-auth": "^5.0.0-beta.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recoil": "^0.7.7"

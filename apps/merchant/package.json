@@ -9,25 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@repo/ui": "*",
     "@repo/database": "*",
     "@repo/store": "*",
-    "recoil": "^0.7.7",
+    "@repo/ui": "*",
+    "next": "14.2.2",
+    "next-auth": "^5.0.0-beta.16",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@next/eslint-plugin-next": "^14.1.1",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.2"
+    "typescript": "^5"
   }
 }
